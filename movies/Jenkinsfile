@@ -108,6 +108,7 @@ pipeline {
                             }
                         }
                         echo "Deployment to Dev env is complete. Access the API endpoint at the URL http://${routeHost0}/movies."
+               }
         }
 
         stage('Promote to Staging Env') {
